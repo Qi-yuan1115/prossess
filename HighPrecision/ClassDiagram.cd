@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighPrecisionDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartAxis" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QGkgLIKiUrhpMwAsBiKCELyRgMgMClchEtTKCQAIQSE=</HashCode>
+      <FileName>ChartClass\ChartAxis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartAxisLabel" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAIEgCMAIABAACAAAAAQkCAMAgAAAAAAAA=</HashCode>
+      <FileName>ChartClass\ChartAxisLabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartBalloonLabel&lt;PointType&gt;" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAEAIMBgAgAAACAAAACAEgAwAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>ChartClass\ChartBalloonLabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartBarSerie" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEMDChAQCJAAgBEABAwAAEAYgEkZIgABAAhAgQIAAg=</HashCode>
+      <FileName>ChartClass\ChartBarSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartCandlestickSerie" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAEgAQAgAAAAAwBAAQABEgCAAAAAAACEAAAAQ=</HashCode>
+      <FileName>ChartClass\ChartCandlestickSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartCrossHairCursor" Collapsed="true">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQCgEAAJAAAAAAABAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChartClass\ChartCrossHairCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartCtrl" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAKIVCGUxEmECWAbAjYAAoFNCz8wIFiJI48NRHI+CSg=</HashCode>
+      <FileName>ChartClass\ChartCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartCursorListener" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ChartClass\ChartCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartCursor" Collapsed="true">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgIABAAAAAAAggAAAAAgAAAAABAAggAACggAACAIAAA=</HashCode>
+      <FileName>ChartClass\ChartCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartDateTimeAxis" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAgAAIAgISAABAACEAAAAAQAAACAAAAQACIAgAIgSA=</HashCode>
+      <FileName>ChartClass\ChartDateTimeAxis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartDragLineCursor" Collapsed="true">
+    <Position X="8.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAAQAAgAAAIAAAAAAABAAIgAAAAAACAAIAAA=</HashCode>
+      <FileName>ChartClass\ChartDragLineCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartFont" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAQAEACAAAAAACAAQAAAAAEAANgAAAABCA=</HashCode>
+      <FileName>ChartClass\ChartFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartGanttSerie" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAMBCgAAAAQAgAAACAgAAAAYgEkQIgABACAAAQAAAg=</HashCode>
+      <FileName>ChartClass\ChartGanttSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartGradient" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChartClass\ChartGradient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartGrid" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAAAAIEgAAAAAQAAQAAAAAAgCAAAgAAAQAICA=</HashCode>
+      <FileName>ChartClass\ChartGrid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartLabelProvider&lt;PointType&gt;" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ChartClass\ChartLabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartLabel&lt;PointType&gt;" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAgIAgAAAAAAAAGAAAAAAgAAIBAyAAAAAQA=</HashCode>
+      <FileName>ChartClass\ChartLabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartLegend" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEMAAUAQBBgpEiACCACBgACAAAAgQgKBAAYCAAAJAEA=</HashCode>
+      <FileName>ChartClass\ChartLegend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartLineSerie" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CogAAAAAIAAAAkAAAAAgAAggAAMAAAAAAAAAAEAAACQ=</HashCode>
+      <FileName>ChartClass\ChartLineSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartLogarithmicAxis" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAIAAAAAAACAABAAAAAAAABQgAACIAAAIgCA=</HashCode>
+      <FileName>ChartClass\ChartLogarithmicAxis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartMouseListener" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAQEAAAAAAAAAQBAAAAABAAAAAA=</HashCode>
+      <FileName>ChartClass\ChartMouseListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartPointsArray&lt;T&gt;" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIDAQQAwAgAxGEAAAEAAAAAADIEAgAAAAAOgCCBQCAA=</HashCode>
+      <FileName>ChartClass\ChartPointsArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartPointsSerie" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAAAAAAEQwggABAAAgAAAAAgFgAAEAAAAAABAAAAA=</HashCode>
+      <FileName>ChartClass\ChartPointsSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartScrollBar" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQJAEMAABAEAEAAAhIAAEAAAgAAAAAAAEAAAAAAIA=</HashCode>
+      <FileName>ChartClass\ChartScrollBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartSerie" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgEMAgABEAMJkgAISIQhCABQAAEiwgKEEAggQAgMBAE=</HashCode>
+      <FileName>ChartClass\ChartSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartSerieBase&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEIgAQkgARCAAAAEAAAgAQAAACgAAAhBIkCAgIAAA=</HashCode>
+      <FileName>ChartClass\ChartSerieBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartSeriesMouseListener&lt;PointType&gt;" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAEAA=</HashCode>
+      <FileName>ChartClass\ChartSeriesMouseListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartStandardAxis" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAIwAAAAACAAAAAAIAAAAAARAAACIAAAIgCA=</HashCode>
+      <FileName>ChartClass\ChartStandardAxis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartSurfaceSerie" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAABAAAJCAgAEAAAgAAAAAAEAAAIAACAAAAAAAAA=</HashCode>
+      <FileName>ChartClass\ChartSurfaceSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartTitle" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACABQoFgCAIAQABACAAAAAQgCAMAgAAAAEAAA=</HashCode>
+      <FileName>ChartClass\ChartTitle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartXYSerie" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAgCQAAgAQgIEAAAAAAAAAAAAgAAAAQAiAIA=</HashCode>
+      <FileName>ChartClass\ChartXYSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CButtonST" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQiVkEEAKABQkDiCiGoBAAFAEFgJQAGkAgKCCQBEgKY=</HashCode>
+      <FileName>ButtonST.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMemDC" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIkACAAAAAgAQAAAAAAAABAQAAAQAAAA=</HashCode>
+      <FileName>ButtonST.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDxfFileWrite" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAQCAEFEAjCgbMSQABRQYIRoMCMAdgFBACZSDEQA=</HashCode>
+      <FileName>CadLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDrawing" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pAELI0oIQHMgoIAagooFFWAAEBhAEOZYgokCGDAPKAI=</HashCode>
+      <FileName>CadLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CConnectDeviceDlg" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAgAABAAAAgAAAAAAAAAAAIAAAAAAAI=</HashCode>
+      <FileName>ConnectDeviceDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDrawingView" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAACAAAAIAAEAAAAABAgBAAAAAAAgAAAAIQAAA=</HashCode>
+      <FileName>DrawingView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHighPrecisionApp">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEABAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>HighPrecision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHighPrecisionDlg">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CHighPrecisionDlg::__unnamed_enum_0046_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HighPrecisionDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>sIynWJ+JZdUnVU/ph1/uxzjNQBjeIp+tmEfX9t2y/M8=</HashCode>
+      <FileName>HighPrecisionDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLoopBuf" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAkAAAAAAAAAgAAAAAAAAAAAAAAAAASAAgAAA=</HashCode>
+      <FileName>LoopBuf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMachineControl" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAGAAEABABAAQAAQQUgBAAkSVCCAABACZABAAAAAA=</HashCode>
+      <FileName>MachineControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotorPara" Collapsed="true">
+    <Position X="14.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAAAIBAABAEBAAAAAAAQAEAAAAACAAAABAAAE=</HashCode>
+      <FileName>MotorPara.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMscomm1" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AZkgERYByAPYGGVCAgACkAAA4AgBolAAhIUMVIgBMCY=</HashCode>
+      <FileName>mscomm1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyFileDialog" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyFileDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutLineArithmetic" Collapsed="true">
+    <Position X="16.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAEIIAAABAIAAACIAAAEIEAABQAAAAhgIAAAAAAA=</HashCode>
+      <FileName>OutLineArithmetic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CReprtParamDlg" Collapsed="true">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAMAAAAAAAAAAhAAAAAAABAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ReprtParamDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSetParameterDlg" Collapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgEEQBAAACAAABgAAACAAAAAAACACAAMEAAAAAA=</HashCode>
+      <FileName>SetParameterDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSplashWnd" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAAAAAAEEAxIAAAAAAACAAAEAAAAAQBAABAAA=</HashCode>
+      <FileName>Splash.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestInfoInputDlg" Collapsed="true">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAEQAAAAAABAAJECAAAAFAoAIAAsAAQGAAAAAAA=</HashCode>
+      <FileName>TestInfoInputDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="THREAD_PARAM2D" Collapsed="true">
+    <Position X="4.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAAACYgAAAAIAAAAAAAAAAAAQAAAAEAAIA=</HashCode>
+      <FileName>HighPrecisionDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TrackSelAndMHStruct" Collapsed="true">
+    <Position X="20" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAEAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighPrecisionDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PreprocessINfO" Collapsed="true">
+    <Position X="21.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABQEAAAAAAAAQAAEAAAAAAAAAAABAAQgIAAA=</HashCode>
+      <FileName>HighPrecisionDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CalHdmStruct" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAgAAAGAAAGAAAAIAAQAACAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighPrecisionDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SChartCandlestickPoint" Collapsed="true">
+    <Position X="23.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAIAAAAgAAAAAIACgABAAQYAABAACAAAA=</HashCode>
+      <FileName>ChartClass\ChartCandlestickSerie.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SChartGanttPoint" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAIICAgBAAQYAAAAAAAAAI=</HashCode>
+      <FileName>ChartClass\ChartGanttSerie.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SChartXYPoint" Collapsed="true">
+    <Position X="16.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIACAABAAQYgAAAQAAYAA=</HashCode>
+      <FileName>ChartClass\ChartXYSerie.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FloatLoopBuffCtl" Collapsed="true">
+    <Position X="18.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAQBAAAAQAAA=</HashCode>
+      <FileName>LoopBuf.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DoubleLoopBuffCtl" Collapsed="true">
+    <Position X="16.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAQBAAAAQAAA=</HashCode>
+      <FileName>LoopBuf.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="IntLoopBuffCtl" Collapsed="true">
+    <Position X="20" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAQBAAAAQAAA=</HashCode>
+      <FileName>LoopBuf.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TestInfo" Collapsed="true">
+    <Position X="18.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAIAAAAIIAAAAECAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TestInfoInputDlg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="_THREAD_PARAM2D" Collapsed="true">
+    <Position X="4.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighPrecisionDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TChartString" Collapsed="true">
+    <Position X="14.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChartClass\ChartString.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TChartStringStream" Collapsed="true">
+    <Position X="16.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChartClass\ChartString.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ANALYSE_MODE" Collapsed="true">
+    <Position X="14.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAgAAAAAAAAIAABAAAACAAAAAAAAACAQAAAAAA=</HashCode>
+      <FileName>HighPrecisionDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EGradientType" Collapsed="true">
+    <Position X="16.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAUA=</HashCode>
+      <FileName>ChartClass\ChartGradient.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PointsOrdering" Collapsed="true">
+    <Position X="18.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChartClass\PointsOrdering.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

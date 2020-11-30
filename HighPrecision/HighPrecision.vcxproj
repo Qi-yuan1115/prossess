@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF6786D7-DB04-48A4-A56D-601029B6F203}</ProjectGuid>
+    <RootNamespace>HighPrecision</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>D:\VS2015安装\VS2015安装位置\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lib\ZLDS200_TCP_DLL.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lib\ZLDS200_TCP_DLL.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ChartClass\ChartBalloonLabel.inl" />
+    <None Include="ChartClass\ChartLabel.inl" />
+    <None Include="ChartClass\ChartPointsArray.inl" />
+    <None Include="ChartClass\ChartSerieBase.inl" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\denglu.bmp" />
+    <None Include="res\fenxi48.ico" />
+    <None Include="res\HighPrecision.ico" />
+    <None Include="res\HighPrecision.rc2" />
+    <None Include="res\icon10.ico" />
+    <None Include="res\jiance.ico" />
+    <None Include="res\order form.ico" />
+    <None Include="res\停止48.ico" />
+    <None Include="res\导入文件48.ico" />
+    <None Include="res\开始48.ico" />
+    <None Include="res\生成报告48.ico" />
+    <None Include="res\电机暂停48X48.ico" />
+    <None Include="res\输入信息48.ico" />
+    <None Include="res\连接设备48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bomo_TestDlg.h" />
+    <ClInclude Include="ButtonST.h" />
+    <ClInclude Include="CadLib.h" />
+    <ClInclude Include="ChartClass\ChartAxis.h" />
+    <ClInclude Include="ChartClass\ChartAxisLabel.h" />
+    <ClInclude Include="ChartClass\ChartBalloonLabel.h" />
+    <ClInclude Include="ChartClass\ChartBarSerie.h" />
+    <ClInclude Include="ChartClass\ChartCandlestickSerie.h" />
+    <ClInclude Include="ChartClass\ChartCrossHairCursor.h" />
+    <ClInclude Include="ChartClass\ChartCtrl.h" />
+    <ClInclude Include="ChartClass\ChartCursor.h" />
+    <ClInclude Include="ChartClass\ChartDateTimeAxis.h" />
+    <ClInclude Include="ChartClass\ChartDragLineCursor.h" />
+    <ClInclude Include="ChartClass\ChartFont.h" />
+    <ClInclude Include="ChartClass\ChartGanttSerie.h" />
+    <ClInclude Include="ChartClass\ChartGradient.h" />
+    <ClInclude Include="ChartClass\ChartGrid.h" />
+    <ClInclude Include="ChartClass\ChartLabel.h" />
+    <ClInclude Include="ChartClass\ChartLegend.h" />
+    <ClInclude Include="ChartClass\ChartLineSerie.h" />
+    <ClInclude Include="ChartClass\ChartLogarithmicAxis.h" />
+    <ClInclude Include="ChartClass\ChartMouseListener.h" />
+    <ClInclude Include="ChartClass\ChartPointsArray.h" />
+    <ClInclude Include="ChartClass\ChartPointsSerie.h" />
+    <ClInclude Include="ChartClass\ChartScrollBar.h" />
+    <ClInclude Include="ChartClass\ChartSerie.h" />
+    <ClInclude Include="ChartClass\ChartSerieBase.h" />
+    <ClInclude Include="ChartClass\ChartSeriesMouseListener.h" />
+    <ClInclude Include="ChartClass\ChartStandardAxis.h" />
+    <ClInclude Include="ChartClass\ChartString.h" />
+    <ClInclude Include="ChartClass\ChartSurfaceSerie.h" />
+    <ClInclude Include="ChartClass\ChartTitle.h" />
+    <ClInclude Include="ChartClass\ChartXYSerie.h" />
+    <ClInclude Include="ChartClass\PointsOrdering.h" />
+    <ClInclude Include="ConnectDeviceDlg.h" />
+    <ClInclude Include="DrawingView.h" />
+    <ClInclude Include="HighPrecision.h" />
+    <ClInclude Include="HighPrecisionDlg.h" />
+    <ClInclude Include="LoopBuf.h" />
+    <ClInclude Include="LoopBuf_Bomo.h" />
+    <ClInclude Include="MachineControl.h" />
+    <ClInclude Include="MEDAQ-Sensor.h" />
+    <ClInclude Include="MotorPara.h" />
+    <ClInclude Include="mscomm1.h" />
+    <ClInclude Include="MyFileDialog.h" />
+    <ClInclude Include="Outline.h" />
+    <ClInclude Include="OutLineArithmetic.h" />
+    <ClInclude Include="OutlineFileHelper.h" />
+    <ClInclude Include="ReprtParamDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SetParameterDlg.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestInfoInputDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bomo_TestDlg.cpp" />
+    <ClCompile Include="ButtonST.cpp" />
+    <ClCompile Include="CadLib.cpp" />
+    <ClCompile Include="ChartClass\ChartAxis.cpp" />
+    <ClCompile Include="ChartClass\ChartAxisLabel.cpp" />
+    <ClCompile Include="ChartClass\ChartBarSerie.cpp" />
+    <ClCompile Include="ChartClass\ChartCandlestickSerie.cpp" />
+    <ClCompile Include="ChartClass\ChartCrossHairCursor.cpp" />
+    <ClCompile Include="ChartClass\ChartCtrl.cpp" />
+    <ClCompile Include="ChartClass\ChartCursor.cpp" />
+    <ClCompile Include="ChartClass\ChartDateTimeAxis.cpp" />
+    <ClCompile Include="ChartClass\ChartDragLineCursor.cpp" />
+    <ClCompile Include="ChartClass\ChartFont.cpp" />
+    <ClCompile Include="ChartClass\ChartGanttSerie.cpp" />
+    <ClCompile Include="ChartClass\ChartGradient.cpp" />
+    <ClCompile Include="ChartClass\ChartGrid.cpp" />
+    <ClCompile Include="ChartClass\ChartLegend.cpp" />
+    <ClCompile Include="ChartClass\ChartLineSerie.cpp" />
+    <ClCompile Include="ChartClass\ChartLogarithmicAxis.cpp" />
+    <ClCompile Include="ChartClass\ChartPointsSerie.cpp" />
+    <ClCompile Include="ChartClass\ChartScrollBar.cpp" />
+    <ClCompile Include="ChartClass\ChartSerie.cpp" />
+    <ClCompile Include="ChartClass\ChartStandardAxis.cpp" />
+    <ClCompile Include="ChartClass\ChartSurfaceSerie.cpp" />
+    <ClCompile Include="ChartClass\ChartTitle.cpp" />
+    <ClCompile Include="ChartClass\ChartXYSerie.cpp" />
+    <ClCompile Include="ConnectDeviceDlg.cpp" />
+    <ClCompile Include="DrawingView.cpp" />
+    <ClCompile Include="HighPrecision.cpp" />
+    <ClCompile Include="HighPrecisionDlg.cpp" />
+    <ClCompile Include="LoopBuf.cpp" />
+    <ClCompile Include="LoopBuf_Bomo.cpp" />
+    <ClCompile Include="MachineControl.cpp" />
+    <ClCompile Include="MEDAQ-Sensor.cpp" />
+    <ClCompile Include="MotorPara.cpp" />
+    <ClCompile Include="mscomm1.cpp" />
+    <ClCompile Include="MyFileDialog.cpp" />
+    <ClCompile Include="Outline.cpp" />
+    <ClCompile Include="OutLineArithmetic.cpp" />
+    <ClCompile Include="OutlineFileHelper.cpp" />
+    <ClCompile Include="ReprtParamDlg.cpp" />
+    <ClCompile Include="SetParameterDlg.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestInfoInputDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HighPrecision.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar2.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="HighPrecision.rc" _x007B_648A5600-2C6E-101B-82B6-000000000014_x007D_="CMscomm1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

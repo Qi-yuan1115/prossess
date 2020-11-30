@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Chartclass">
+      <UniqueIdentifier>{215ce08f-9fbf-4db9-bcce-2d10a97798b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\HighPrecision.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HighPrecision.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ChartClass\ChartBalloonLabel.inl">
+      <Filter>源文件\Chartclass</Filter>
+    </None>
+    <None Include="ChartClass\ChartLabel.inl">
+      <Filter>源文件\Chartclass</Filter>
+    </None>
+    <None Include="ChartClass\ChartPointsArray.inl">
+      <Filter>源文件\Chartclass</Filter>
+    </None>
+    <None Include="ChartClass\ChartSerieBase.inl">
+      <Filter>源文件\Chartclass</Filter>
+    </None>
+    <None Include="res\denglu.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fenxi48.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\jiance.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\order form.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\导入文件48.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\开始48.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\连接设备48.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\生成报告48.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\输入信息48.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\停止48.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon10.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电机暂停48X48.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HighPrecision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HighPrecisionDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectDeviceDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInfoInputDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartAxis.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartAxisLabel.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartBalloonLabel.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartBarSerie.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartCandlestickSerie.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartCrossHairCursor.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartCtrl.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartCursor.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartDateTimeAxis.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartDragLineCursor.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartFont.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartGanttSerie.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartGradient.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartGrid.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartLabel.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartLegend.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartLineSerie.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartLogarithmicAxis.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartMouseListener.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartPointsArray.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartPointsSerie.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartScrollBar.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartSerie.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartSerieBase.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartSeriesMouseListener.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartStandardAxis.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartString.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartSurfaceSerie.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartTitle.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\ChartXYSerie.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartClass\PointsOrdering.h">
+      <Filter>源文件\Chartclass</Filter>
+    </ClInclude>
+    <ClInclude Include="OutLineArithmetic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopBuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetParameterDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mscomm1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorPara.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReprtParamDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFileDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CadLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Outline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlineFileHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomo_TestDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MEDAQ-Sensor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopBuf_Bomo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectDeviceDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestInfoInputDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartAxis.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartAxisLabel.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartBarSerie.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartCandlestickSerie.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartCrossHairCursor.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartCtrl.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartCursor.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartDateTimeAxis.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartDragLineCursor.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartFont.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartGanttSerie.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartGradient.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartGrid.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartLegend.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartLineSerie.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartLogarithmicAxis.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartPointsSerie.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartScrollBar.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartSerie.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartStandardAxis.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartSurfaceSerie.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartTitle.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartClass\ChartXYSerie.cpp">
+      <Filter>源文件\Chartclass</Filter>
+    </ClCompile>
+    <ClCompile Include="OutLineArithmetic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopBuf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetParameterDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mscomm1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorPara.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReprtParamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFileDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CadLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HighPrecision.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HighPrecisionDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Outline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlineFileHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomo_TestDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MEDAQ-Sensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopBuf_Bomo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HighPrecision.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
